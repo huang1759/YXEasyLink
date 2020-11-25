@@ -1,0 +1,16 @@
+PODS:
+  - YXEasyLink (0.1.0)
+
+DEPENDENCIES:
+  - YXEasyLink (from `../`)
+
+EXTERNAL SOURCES:
+  YXEasyLink:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YXEasyLink: 3b61b18603c799788cc359fd97a8fc6816bfe814
+
+PODFILE CHECKSUM: b89dafe06d48c3a275d0ec56969f0faecb947e30
+
+COCOAPODS: 1.9.3

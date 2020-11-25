@@ -22,6 +22,12 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9177BB33256DEFC70088469F /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9177BB32256DEFC70088469F /* ExternalAccessory.framework */; };
+		9177BB35256DF03A0088469F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9177BB34256DF03A0088469F /* SystemConfiguration.framework */; };
+		9177BB37256DF0480088469F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9177BB36256DF0480088469F /* Security.framework */; };
+		9177BB39256DF0620088469F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9177BB38256DF0620088469F /* QuartzCore.framework */; };
+		9177BB3B256DF0720088469F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9177BB3A256DF0720088469F /* CFNetwork.framework */; };
+		9177BB3D256DF0820088469F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9177BB3C256DF0820088469F /* AudioToolbox.framework */; };
 		9390238C555C472681735765 /* Pods_YXEasyLink_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE930B16A2E664AF4867BE0 /* Pods_YXEasyLink_Tests.framework */; };
 		B29479918621BDDF60C454E7 /* Pods_YXEasyLink_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6048B70A531D7A8B3E9323 /* Pods_YXEasyLink_Example.framework */; };
 /* End PBXBuildFile section */
@@ -38,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		0B6048B70A531D7A8B3E9323 /* Pods_YXEasyLink_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXEasyLink_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BA21E05E5952495E6384664 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1BA21E05E5952495E6384664 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5CFC76EC8DCFCB2F687A9145 /* Pods-YXEasyLink_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXEasyLink_Example.release.xcconfig"; path = "Target Support Files/Pods-YXEasyLink_Example/Pods-YXEasyLink_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YXEasyLink_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXEasyLink_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,10 +67,17 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6AA52F9DCDC1AA9FFCA5B77C /* Pods-YXEasyLink_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXEasyLink_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YXEasyLink_Tests/Pods-YXEasyLink_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7E32D88A81EBF7C6A5D1A50B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7E32D88A81EBF7C6A5D1A50B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9177BB2F256DEFBE0088469F /* YXEasyLink_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YXEasyLink_Example.entitlements; sourceTree = "<group>"; };
+		9177BB32256DEFC70088469F /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		9177BB34256DF03A0088469F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9177BB36256DF0480088469F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9177BB38256DF0620088469F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9177BB3A256DF0720088469F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9177BB3C256DF0820088469F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		93A659B7B36F8651DF08A74D /* Pods-YXEasyLink_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXEasyLink_Tests.release.xcconfig"; path = "Target Support Files/Pods-YXEasyLink_Tests/Pods-YXEasyLink_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A3F2C82ACB03E33CAEB59337 /* YXEasyLink.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YXEasyLink.podspec; path = ../YXEasyLink.podspec; sourceTree = "<group>"; };
+		A3F2C82ACB03E33CAEB59337 /* YXEasyLink.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YXEasyLink.podspec; path = ../YXEasyLink.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BBE930B16A2E664AF4867BE0 /* Pods_YXEasyLink_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXEasyLink_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD823E1C65C77123DF6D9CB6 /* Pods-YXEasyLink_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXEasyLink_Example.debug.xcconfig"; path = "Target Support Files/Pods-YXEasyLink_Example/Pods-YXEasyLink_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,7 +87,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9177BB3D256DF0820088469F /* AudioToolbox.framework in Frameworks */,
+				9177BB3B256DF0720088469F /* CFNetwork.framework in Frameworks */,
+				9177BB39256DF0620088469F /* QuartzCore.framework in Frameworks */,
+				9177BB37256DF0480088469F /* Security.framework in Frameworks */,
+				9177BB35256DF03A0088469F /* SystemConfiguration.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				9177BB33256DEFC70088469F /* ExternalAccessory.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				B29479918621BDDF60C454E7 /* Pods_YXEasyLink_Example.framework in Frameworks */,
@@ -103,13 +122,13 @@
 				6AA52F9DCDC1AA9FFCA5B77C /* Pods-YXEasyLink_Tests.debug.xcconfig */,
 				93A659B7B36F8651DF08A74D /* Pods-YXEasyLink_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				9177BB2F256DEFBE0088469F /* YXEasyLink_Example.entitlements */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for YXEasyLink */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -131,6 +150,12 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9177BB3C256DF0820088469F /* AudioToolbox.framework */,
+				9177BB3A256DF0720088469F /* CFNetwork.framework */,
+				9177BB38256DF0620088469F /* QuartzCore.framework */,
+				9177BB36256DF0480088469F /* Security.framework */,
+				9177BB34256DF03A0088469F /* SystemConfiguration.framework */,
+				9177BB32256DEFC70088469F /* ExternalAccessory.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -248,6 +273,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = huang1759;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = FUXYN9M4BU;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +286,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,11 +523,13 @@
 			baseConfigurationReference = CD823E1C65C77123DF6D9CB6 /* Pods-YXEasyLink_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YXEasyLink_Example.entitlements;
+				DEVELOPMENT_TEAM = FUXYN9M4BU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YXEasyLink/YXEasyLink-Prefix.pch";
 				INFOPLIST_FILE = "YXEasyLink/YXEasyLink-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = iot.yx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -510,11 +541,13 @@
 			baseConfigurationReference = 5CFC76EC8DCFCB2F687A9145 /* Pods-YXEasyLink_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YXEasyLink_Example.entitlements;
+				DEVELOPMENT_TEAM = FUXYN9M4BU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YXEasyLink/YXEasyLink-Prefix.pch";
 				INFOPLIST_FILE = "YXEasyLink/YXEasyLink-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = iot.yx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
